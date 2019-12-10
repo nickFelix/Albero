@@ -156,8 +156,36 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: url("../img/bg-pattern.png"), #7b4397;
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  /* background: url("../img/bg-pattern.png"), #7b4397;
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430); */
+  background: url(../img/bg-pattern.png), #f7f7f7;
+  background: url(../img/bg-pattern.png), linear-gradient(to left, rgba(247,247,247, 0.1), #222222);
+}
+
+.img-albero{
+  width: 130vw;
+  max-width: 1872px;
+  max-height: 1141px;
+  right: -180px;
+  bottom: -10px;
+  top: 0;
+  margin: auto 0 0 0;
+}
+
+.img-albero-wrapper{
+  position: absolute;
+  z-index: -1;
+  opacity: 0.7;
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
+  width: 100%;
+  max-width: 1440px;
+  max-height: 642px;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  display: -webkit-box;
 }
 
 header.masthead .header-content {
