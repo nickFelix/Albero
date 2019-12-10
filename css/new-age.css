@@ -6,9 +6,8 @@
 
 html,
 body {
-  width: 100vw;
+  width: 100%;
   height: 100%;
-  overflow-x: hidden;
 }
 
 body {
@@ -70,7 +69,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  color: #222222;
+  color: #fdcc52;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
@@ -125,7 +124,7 @@ section h2 {
   }
   #mainNav .navbar-nav > li > a,
   #mainNav .navbar-nav > li > a:focus {
-    color: rgba(34, 34, 34, 0.7);
+    color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-nav > li > a:hover,
   #mainNav .navbar-nav > li > a:focus:hover {
@@ -157,36 +156,8 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  /* background: url("../img/bg-pattern.png"), #7b4397;
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430); */
-  background: url(../img/bg-pattern.png), #f7f7f7;
-  background: url(../img/bg-pattern.png), linear-gradient(to left, rgba(247,247,247, 0.1), #222222);
-}
-
-.img-albero{
-  width: 130vw;
-  max-width: 1872px;
-  max-height: 1141px;
-  right: -180px;
-  bottom: -10px;
-  top: 0;
-  margin: auto 0 0 0;
-}
-
-.img-albero-wrapper{
-  position: absolute;
-  z-index: -1;
-  opacity: 0.7;
-  width: 100%;
-  max-width: 1440px;
-  height: 100%;
-  width: 100%;
-  max-width: 1440px;
-  max-height: 642px;
-  min-height: -webkit-fit-content;
-  min-height: -moz-fit-content;
-  min-height: fit-content;
-  display: -webkit-box;
+  background: url("../img/bg-pattern.png"), #7b4397;
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
 }
 
 header.masthead .header-content {
@@ -209,11 +180,6 @@ header.masthead .device-container .screen img {
   border-radius: 3px;
 }
 
-header.masthead .container {
-  z-index: 3;
-  color: white;
-}
-
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
@@ -231,16 +197,6 @@ header.masthead .container {
   header.masthead .device-container {
     max-width: 325px;
   }
-
-  /* header.masthead .container {
-    z-index: 0;
-    color: #222222;
-  } */
-  
-  #mainNav .navbar-brand{
-    color: white;
-  }
-
 }
 
 section.download {
@@ -439,8 +395,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: white !important;
-  /* background: linear-gradient(#fdcc52, #fdc539); */
+  background: #fdcc52;
+  background: linear-gradient(#fdcc52, #fdc539);
 }
 
 .text-primary {
