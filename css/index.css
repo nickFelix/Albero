@@ -87,7 +87,7 @@
  }
  
  #mainNav .navbar-nav > li > a {
-   font-size: 11px;
+   font-size: 14px;
    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
    letter-spacing: 2px;
    text-transform: uppercase;
@@ -239,6 +239,7 @@
    
    #mainNav .navbar-brand{
      color: white;
+     font-size: 1.55rem;
    }
  
  }
@@ -249,12 +250,17 @@
  }
  
  section.download h2 {
-   font-size: 50px;
-   margin-top: 0;
+    font-weight: 400;
+    margin-top: 0;
  }
 
+ section.download .section-heading span {
+  color: #114FCB;
+}
+
  section.download .geosocial-text {
-  padding-top: 10px;
+  padding-top: 100px;
+  text-align: left;
  }
  
  section.download .badges .badge-link {
@@ -279,8 +285,14 @@
  
  @media (min-width: 768px) {
    section.download h2 {
-     font-size: 70px;
+     font-size: 32px;
    }
+ }
+
+ section.features {
+  background-image: url("../img/category-cards-bg.jpg");
+  background-position: center;
+  background-size: cover;
  }
  
  section.features .section-heading {
@@ -311,7 +323,52 @@
    }
  }
  
- section.features .feature-item {
+section.features .item {
+  text-align: center;
+}
+
+section.features .number {
+  font-size: 60px;
+  line-height: 72px;
+  margin: 0 0 8px;
+}
+
+section.features .item:nth-of-type(1) .number{
+  
+}
+
+section.features .item:nth-of-type(2n-1) .number {
+  
+}
+
+section.features h3 {
+  margin-bottom: 61px;
+  font-size: 45px;
+}
+
+section.features .poster {
+  min-height: 300px;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section.features .inner-features {
+  display: flex;
+  padding: 33px 0 27px;
+}
+
+section.features .point {
+  padding: 0 46.1px;
+}
+
+section.features .icon {
+  margin: 0 auto 17px;
+}
+
+ /* section.features .feature-item {
    padding-top: 50px;
    padding-bottom: 50px;
    text-align: center;
@@ -328,7 +385,7 @@
    background: linear-gradient(to left, #7b4397, #dc2430);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
- }
+ } */
  
  section.cta {
    position: relative;
